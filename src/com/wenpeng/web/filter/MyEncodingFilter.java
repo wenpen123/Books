@@ -20,6 +20,7 @@ public class MyEncodingFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException
     {
+        response.setContentType("text/html;charset=utf-8");
         request.setCharacterEncoding("UTF-8");
         //解决Tomcat 7 Get请求中文乱码问题
         //MyRequest myRequest = new MyRequest((HttpServletRequest) request);

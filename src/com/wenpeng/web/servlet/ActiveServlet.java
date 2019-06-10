@@ -1,6 +1,5 @@
 package com.wenpeng.web.servlet;
 
-import com.wenpeng.model.User;
 import com.wenpeng.service.UserService;
 
 import javax.servlet.ServletException;
@@ -17,7 +16,7 @@ public class ActiveServlet extends HttpServlet {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
     {
         //获取参数
         String activeCode = request.getParameter("activeCode");

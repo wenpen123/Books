@@ -28,7 +28,7 @@ public class UserService {
         }
     }
 
-    public void activeUser(String activeCode)
+    public void activeUser(String activeCode) throws UserException
     {
         //1:先查询激活码的用户是否存在
         try
@@ -40,17 +40,15 @@ public class UserService {
             }
             if (user != null && user.getState() == 1)
             {
-                throw new UserException("改用户已激活!");
+                throw new UserException("该用户已激活!");
             }
             //以上两种情况都不满足,就激活用户
             ud.updateState(activeCode);
         }
-        catch (SQLException | UserException e)
+        catch (SQLException e)
         {
-            e.printStackTrace();
+            throw new UserException("激活失败");
         }
-
-
     }
 
 
