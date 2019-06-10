@@ -7,10 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStor/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ActiveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ActiveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wenpeng/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,41 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="168">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -99,11 +90,13 @@
         <option value="$PROJECT_DIR$/src/com/wenpeng/utils/SendJMail.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/utils/C3P0Utils.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -114,9 +107,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="y" value="-8" />
     <option name="width" value="1708" />
     <option name="height" value="926" />
   </component>
@@ -163,6 +156,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Book" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,16 +189,12 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +365,7 @@
       <workItem from="1560084001496" duration="623000" />
       <workItem from="1560084708192" duration="54000" />
       <workItem from="1560084779703" duration="1481000" />
-      <workItem from="1560173453800" duration="1483000" />
+      <workItem from="1560173453800" duration="3269000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -446,11 +451,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560086121497</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1.0">
+      <created>1560174957387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560174957387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1.0">
+      <created>1560175100934</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175100934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52422000" />
+    <option name="totallyTimeSpent" value="54208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,20 +481,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-257" y="19" width="1708" height="926" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7289855" visible="true" weight="0.16201456" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72745097" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" sideWeight="0.25908372" side_tool="true" weight="0.23294243" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.25908372" side_tool="true" weight="0.23294243" />
-      <window_info id="Web" order="7" sideWeight="0.27101448" side_tool="true" weight="0.25426438" />
+      <window_info id="Web" order="7" sideWeight="0.27254903" side_tool="true" visible="true" weight="0.14232409" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34561214" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52060735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44685465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,6 +597,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -631,10 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/RegisterServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="166">
+          <caret line="65" column="82" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,8 +689,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="315">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,35 +699,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ActiveServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
         </state>
       </provider>
     </entry>

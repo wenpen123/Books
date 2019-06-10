@@ -51,5 +51,28 @@ public class UserService {
         }
     }
 
+    public User login(String username, String password) throws UserException
+    {
+        UserDao ud = new UserDao();
+        try
+        {
+            User user = ud.findUserByUsernameAndPassword(username, password);
+            if (user == null)
+            {
+                throw new UserException("用户名或密码不正确");
+            }
+            if (user.getState() == 0)
+            {
+                throw new UserException("用户未激活,请登录邮箱(" + user.getEmail() + ")激活");
+            }
+            return user;
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+            throw new UserException("登录失败");
+        }
+
+    }
 
 }

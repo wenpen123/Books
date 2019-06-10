@@ -2,7 +2,7 @@
 <c3p0-config>
   <default-config>
 	<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
-	<property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore?serverTimezone=GMT</property>
+	<property name="jdbcUrl">jdbc:mysql://menker.imwork.net:3366/bookstore?serverTimezone=GMT</property>
 	<property name="user">root</property>
 	<property name="password">Qaz98909!</property>
     <property name="initialPoolSize">10</property>

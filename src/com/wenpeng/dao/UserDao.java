@@ -1,6 +1,5 @@
 package com.wenpeng.dao;
 
-import com.wenpeng.exception.UserException;
 import com.wenpeng.model.User;
 import com.wenpeng.utils.C3P0Utils;
 import org.apache.commons.dbutils.QueryRunner;
@@ -57,6 +56,16 @@ public class UserDao {
         //执行查询
         qr.update(sql, activeCode);
 
+    }
+
+    public User findUserByUsernameAndPassword(String username, String password) throws SQLException
+    {
+        //获取连接
+        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+        //创建查询语句
+        String sql = "select * from user where username= ? and PASSWORD = ?";
+        //执行查询
+        return qr.query(sql, new BeanHandler<User>(User.class), username, password);
     }
 
 }
