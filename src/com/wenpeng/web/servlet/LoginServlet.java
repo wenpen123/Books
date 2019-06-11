@@ -24,8 +24,10 @@ public class LoginServlet extends HttpServlet {
         {
             User user = us.login(username, password);
             //登录成功.返回主页
-            request.getSession().setAttribute("user",user);
-            request.getRequestDispatcher("/index.jsp").forward(request, response);
+            request.getSession().setAttribute("user", user);
+            //request.getRequestDispatcher("/index.jsp").forward(request, response);
+            //重定向到主页.避免重复提交到servlet
+            response.sendRedirect(request.getContextPath() + "/index.jsp");
         }
         catch (UserException e)
         {
