@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ActiveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ActiveServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/filter/MyEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/filter/MyEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/ActiveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/ActiveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/dao/UserDao.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
+            <state relative-caret-position="798">
+              <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -136,65 +132,6 @@
               <item name="Book" type="b2602c69:ProjectViewProjectNode" />
               <item name="Book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Book" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,7 +302,7 @@
       <workItem from="1560084001496" duration="623000" />
       <workItem from="1560084708192" duration="54000" />
       <workItem from="1560084779703" duration="1481000" />
-      <workItem from="1560173453800" duration="3269000" />
+      <workItem from="1560173453800" duration="3464000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -465,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560175100934</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1.0">
+      <created>1560176804420</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560176804420</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54208000" />
+    <option name="totallyTimeSpent" value="54403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,19 +426,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72745097" visible="true" weight="0.14232409" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72776574" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" sideWeight="0.25908372" side_tool="true" weight="0.23294243" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.25908372" side_tool="true" weight="0.23294243" />
-      <window_info id="Web" order="7" sideWeight="0.27254903" side_tool="true" visible="true" weight="0.14232409" />
+      <window_info id="Web" order="7" sideWeight="0.27223426" side_tool="true" visible="true" weight="0.14232409" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34561214" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44685465" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44685465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="34" column="101" selection-start-line="34" selection-start-column="101" selection-end-line="34" selection-end-column="101" />
+        <state relative-caret-position="798">
+          <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
         </state>
       </provider>
     </entry>
