@@ -67,5 +67,14 @@ public class UserDao {
         //执行查询
         return qr.query(sql, new BeanHandler<User>(User.class), username, password);
     }
+    public User findUserById(String id) throws SQLException
+    {
+        //获取连接
+        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+        //创建查询语句
+        String sql = "select * from user where id= ?";
+        //执行查询
+        return qr.query(sql, new BeanHandler<User>(User.class), id);
+    }
 
 }

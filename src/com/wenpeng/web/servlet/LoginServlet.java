@@ -23,11 +23,18 @@ public class LoginServlet extends HttpServlet {
         try
         {
             User user = us.login(username, password);
-            //登录成功.返回主页
-            request.getSession().setAttribute("user", user);
-            //request.getRequestDispatcher("/index.jsp").forward(request, response);
-            //重定向到主页.避免重复提交到servlet
-            response.sendRedirect(request.getContextPath() + "/index.jsp");
+            //如果是管理员.就进入后台界面
+            if("管理员".equals(user.getRole())){
+                request.getSession().setAttribute("user", user);
+                response.sendRedirect(request.getContextPath() + "/admin/login/home.jsp");
+            }else{
+                //普通用户就进入到主页 登录成功.返回主页
+                request.getSession().setAttribute("user", user);
+                //request.getRequestDispatcher("/index.jsp").forward(request, response);
+                //重定向到主页.避免重复提交到servlet
+                response.sendRedirect(request.getContextPath() + "/index.jsp");
+            }
+
         }
         catch (UserException e)
         {

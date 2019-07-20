@@ -75,4 +75,25 @@ public class UserService {
 
     }
 
+    public User findUserById(String id) throws UserException
+    {
+        UserDao ud = new UserDao();
+        try
+        {
+            User user = ud.findUserById(id);
+            if (user == null)
+            {
+                throw new UserException("用户不存在");
+            }
+
+            return user;
+        }
+        catch (SQLException e)
+        {
+            e.printStackTrace();
+            throw new UserException("未知错误");
+        }
+
+    }
+
 }
