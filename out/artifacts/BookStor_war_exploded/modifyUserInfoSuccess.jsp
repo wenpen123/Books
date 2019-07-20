@@ -27,7 +27,7 @@
 							</td>
 							<td style="padding-top:30px"><font
 								style="font-weight:bold; color:#FF0000">用户信息修改成功，请重新登录</font><br /> <br />
-								<a href="index.html"><span id="second">5</span>秒后自动为您转跳回首页</a></td>
+								<a href="index.jsp"><span id="second">5</span>秒后自动为您转跳回首页</a></td>
 						</tr>
 					</table>
 					<h1>&nbsp;</h1></td>

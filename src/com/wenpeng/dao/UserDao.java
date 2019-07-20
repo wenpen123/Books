@@ -76,5 +76,16 @@ public class UserDao {
         //执行查询
         return qr.query(sql, new BeanHandler<User>(User.class), id);
     }
+    //更改用户信息
+    public void updateUser(User user) throws SQLException
+    {
+        //获取连接
+        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+        //创建查询语句
+        String sql = "update user set password= ? , gender=? ,telephone=?  where id = ?";
+        //执行查询
+         qr.update(sql, user.getPassword(),user.getGender(),user.getTelephone(),user.getId());
+    }
+
 
 }

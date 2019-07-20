@@ -96,4 +96,18 @@ public class UserService {
 
     }
 
+    //修改用户信息
+    public void modifyUserInfo(User user) throws UserException
+    {
+        try
+        {
+            ud.updateUser(user);
+        }
+        catch (SQLException e)
+        {
+            throw new UserException("未知错误");
+        }
+    }
+
+
 }

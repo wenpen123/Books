@@ -36,7 +36,7 @@
 						</tr>
 						<tr>
 							<td class="listtd"><img src="images/miniicon.gif" width="9"
-								height="6" />&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">用戶退出</a>
+								height="6" />&nbsp;&nbsp;&nbsp;&nbsp; <a href="${pageContext.request.contextPath}/logout">用戶退出</a>
 							</td>
 						</tr>
 					</table></td>
@@ -65,7 +65,7 @@
 				<td rowspan="2" style="width:10%"><img
 					src="images/bottomlogo.gif" width="195" height="50"
 					style="margin-left:175px" /></td>
-				<td style="padding-top:5px; padding-left:50px"><a href="#"><font
+				<td style="padding-top:5px; padding-left:50px"><a href=""><font
 						color="#747556"><b>CONTACT US</b> </font> </a></td>
 			</tr>
 			<tr>

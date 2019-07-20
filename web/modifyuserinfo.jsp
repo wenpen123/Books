@@ -34,7 +34,7 @@
 
 						<tr>
 							<td class="listtd"><img src="images/miniicon.gif" width="9"
-								height="6" />&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">用戶退出</a>
+								height="6" />&nbsp;&nbsp;&nbsp;&nbsp; <a href="${pageContext.request.contextPath}/logout">用戶退出</a>
 							</td>
 						</tr>
 					</table></td>
@@ -51,8 +51,8 @@
 					<table cellspacing="0" class="infocontent">
 						<tr>
 							<td>
-								<form action="modifyUserInfoSuccess.jsp" method="post">
-									<input type="hidden" name="id" value="${user.id}">
+								<form action="${pageContext.request.contextPath}/modifyuser" method="post">
+									<input type="hidden" name="id" value="${u.id}">
 									<table width="100%" border="0" cellspacing="2" class="upline">
 										<tr>
 											<td style="text-align:right; width:20%">会员邮箱：</td>
