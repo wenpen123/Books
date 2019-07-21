@@ -7,15 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/findUserByIdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/FindUserByIdServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/myAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/MyAccountServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,11 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="1533">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1247#1255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +66,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="462">
               <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#262#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="525">
               <caret line="36" column="44" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="44" />
             </state>
           </provider>
@@ -98,38 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#657#663#0#HTML" expanded="true" />
-                <element signature="e#663#669#0#HTML" expanded="true" />
-                <element signature="e#669#675#0#HTML" expanded="true" />
-                <element signature="e#675#681#0#HTML" expanded="true" />
-                <element signature="e#681#685#0#HTML" expanded="true" />
-                <element signature="e#685#691#0#HTML" expanded="true" />
-                <element signature="e#691#697#0#HTML" expanded="true" />
-                <element signature="e#697#703#0#HTML" expanded="true" />
-                <element signature="e#703#709#0#HTML" expanded="true" />
-                <element signature="e#712#718#0#HTML" expanded="true" />
-                <element signature="e#718#724#0#HTML" expanded="true" />
-                <element signature="e#724#730#0#HTML" expanded="true" />
-                <element signature="e#730#736#0#HTML" expanded="true" />
-                <element signature="e#736#740#0#HTML" expanded="true" />
-                <element signature="e#740#746#0#HTML" expanded="true" />
-                <element signature="e#746#752#0#HTML" expanded="true" />
-                <element signature="e#752#758#0#HTML" expanded="true" />
-                <element signature="e#758#764#0#HTML" expanded="true" />
-                <element signature="e#1024#1030#0#HTML" expanded="true" />
-                <element signature="e#1030#1036#0#HTML" expanded="true" />
-                <element signature="e#1036#1042#0#HTML" expanded="true" />
-                <element signature="e#1042#1048#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7387#7391#0#HTML" expanded="true" />
-                <element signature="e#7391#7395#0#HTML" expanded="true" />
-                <element signature="e#7902#7906#0#HTML" expanded="true" />
-                <element signature="e#7906#7910#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="735">
+              <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -146,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="63" column="86" lean-forward="true" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+            <state relative-caret-position="1323">
+              <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -235,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,6 +254,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductDao">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.391">
     <configuration name="ProductDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wenpeng.dao.ProductDao" />
       <module name="BookStor" />
@@ -497,6 +456,7 @@
       <workItem from="1563585650933" duration="19548000" />
       <workItem from="1563671747310" duration="739000" />
       <workItem from="1563707629065" duration="6539000" />
+      <workItem from="1563717755641" duration="60000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -624,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563634237269</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1.0">
+      <created>1563717782433</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563717782433</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81229000" />
+    <option name="totallyTimeSpent" value="81289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -641,8 +608,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72408026" visible="true" weight="0.11140725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72408026" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="1" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1003,21 +971,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="63" column="86" lean-forward="true" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+        <state relative-caret-position="126">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="1533">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1247#1255#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="44" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1028,65 +1012,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#262#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="1323">
+          <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#657#663#0#HTML" expanded="true" />
-            <element signature="e#663#669#0#HTML" expanded="true" />
-            <element signature="e#669#675#0#HTML" expanded="true" />
-            <element signature="e#675#681#0#HTML" expanded="true" />
-            <element signature="e#681#685#0#HTML" expanded="true" />
-            <element signature="e#685#691#0#HTML" expanded="true" />
-            <element signature="e#691#697#0#HTML" expanded="true" />
-            <element signature="e#697#703#0#HTML" expanded="true" />
-            <element signature="e#703#709#0#HTML" expanded="true" />
-            <element signature="e#712#718#0#HTML" expanded="true" />
-            <element signature="e#718#724#0#HTML" expanded="true" />
-            <element signature="e#724#730#0#HTML" expanded="true" />
-            <element signature="e#730#736#0#HTML" expanded="true" />
-            <element signature="e#736#740#0#HTML" expanded="true" />
-            <element signature="e#740#746#0#HTML" expanded="true" />
-            <element signature="e#746#752#0#HTML" expanded="true" />
-            <element signature="e#752#758#0#HTML" expanded="true" />
-            <element signature="e#758#764#0#HTML" expanded="true" />
-            <element signature="e#1024#1030#0#HTML" expanded="true" />
-            <element signature="e#1030#1036#0#HTML" expanded="true" />
-            <element signature="e#1036#1042#0#HTML" expanded="true" />
-            <element signature="e#1042#1048#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#7387#7391#0#HTML" expanded="true" />
-            <element signature="e#7391#7395#0#HTML" expanded="true" />
-            <element signature="e#7902#7906#0#HTML" expanded="true" />
-            <element signature="e#7906#7910#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="735">
+          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
         </state>
       </provider>
     </entry>
