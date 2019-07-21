@@ -21,6 +21,7 @@ public class ProductDao {
 
     public long count(String category) throws SQLException
     {
+        //定义记录数变量为0
         long count = 0;
         QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
         String sql = "select count(*) from products where 1=1";
@@ -36,6 +37,14 @@ public class ProductDao {
         return count;
     }
 
+    /**
+     * 获取指定分类和页数
+     * @param category 类型
+     * @param page  页数
+     * @param pageSize 每页显示多少条
+     * @return
+     * @throws SQLException
+     */
     public List<Product> findBooks(String category, int page, int pageSize) throws SQLException
     {
         QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
@@ -47,7 +56,7 @@ public class ProductDao {
             params.add(category);
             sql += " and category=?";
         }
-        sql += "limit ?,?";
+        sql += " limit ?,?";
         int start = (page - 1) * pageSize;
         int lenght = pageSize;
         params.add(start);
@@ -56,7 +65,7 @@ public class ProductDao {
     }
 
 
-  /*  public static void main(String[] args) throws SQLException
+ /*   public static void main(String[] args) throws SQLException
     {
         ProductDao pd = new ProductDao();
         long count = pd.count(null);
