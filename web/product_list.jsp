@@ -65,13 +65,12 @@
 
 
                                     <li class="disablepage">上一页 &lt;&lt;</li>
-                                    <li class="currentpage">1</li>
-                                    <li><a href="product_info.jsp">2</a>
-                                    </li>
-                                    <li><a href="product_info.jsp">3</a>
-                                    </li>
-                                    <li><a href="product_info.jsp">4</a>
-                                    </li>
+<%--                     <li class="currentpage">1</li>--%>
+                                   <c:forEach begin="1" end="${pageResult.totalPage}" var="page">
+                                       <li><a href="${pageContext.request.contextPath}/showProductByPage?category=${category}&page=${page}">${page}</a> </li>
+
+                                   </c:forEach>
+
 
 
                                     <li class="nextpage"><a href="product_info.jsp">下一页&gt;&gt;</a>

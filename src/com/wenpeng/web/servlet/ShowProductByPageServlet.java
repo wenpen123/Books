@@ -35,6 +35,7 @@ public class ShowProductByPageServlet extends HttpServlet {
         {
             PageResult<Product> pageResult = ps.findBooks(category, page);
             request.setAttribute("pageResult",pageResult);
+            request.setAttribute("category",category);
             //跳转到商品列表页面
            request.getRequestDispatcher("/product_list.jsp").forward(request,response);
 
