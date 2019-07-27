@@ -1,5 +1,5 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -7,13 +7,13 @@
 
     <title>bookStore列表</title>
     <%--导入css --%>
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
 </head>
 
 <body class="main">
 
-<jsp:include page="head.jsp" />
-<jsp:include page="menu_search.jsp" />
+<jsp:include page="head.jsp"/>
+<jsp:include page="menu_search.jsp"/>
 
 <div id="divpagecontent">
     <table width="100%" border="0" cellspacing="0">
@@ -28,11 +28,11 @@
                     <tr>
                         <td>
                             <h1>商品目录</h1>
-                            <hr />
+                            <hr/>
                             <h1>计算机</h1>&nbsp;&nbsp;&nbsp;&nbsp;共${pageResult.totalCount}种商品
-                            <hr />
+                            <hr/>
                             <div style="margin-top:20px; margin-bottom:5px">
-                                <img src="images/productlist.gif" width="100%" height="38" />
+                                <img src="images/productlist.gif" width="100%" height="38"/>
                             </div>
                             <table cellspacing="0" class="booklist">
                                 <tr>
@@ -43,39 +43,21 @@
                                             <div class="divbookpic">
                                                 <p>
                                                     <a href="product_info.jsp"><img src="bookcover/101.jpg" width="115"
-                                                                                    height="129" border="0" /> </a>
+                                                                                    height="129" border="0"/> </a>
                                                 </p>
                                             </div>
 
                                             <div class="divlisttitle">
-                                                <a href="product_info.jsp">书名:${product.name}<br />售价:${product.price}< </a>
-                                            </div></td>
+                                                <a href="product_info.jsp">书名:${product.name}<br/>售价:${product.price}
+                                                </a>
+                                            </div>
+                                        </td>
 
                                     </c:forEach>
 
 
-
-
-
-
-
                                 </tr>
                             </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                             <div class="pagination">
@@ -99,14 +81,14 @@
                             </div>
                         </td>
                     </tr>
-                </table></td>
+                </table>
+            </td>
         </tr>
     </table>
 </div>
 
 
-
-<jsp:include page="foot.jsp" />
+<jsp:include page="foot.jsp"/>
 
 
 </body>
