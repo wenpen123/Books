@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,81 +220,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -512,7 +433,7 @@
       <workItem from="1564284444905" duration="174000" />
       <workItem from="1564284636702" duration="18000" />
       <workItem from="1564284670039" duration="111000" />
-      <workItem from="1564284798065" duration="7371000" />
+      <workItem from="1564284798065" duration="7683000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -682,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564288824783</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.0">
+      <created>1564305775924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564305775924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94601000" />
+    <option name="totallyTimeSpent" value="94913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,9 +627,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72212976" visible="true" weight="0.2489339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72212976" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="1" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -711,7 +638,7 @@
       <window_info id="Web" order="7" sideWeight="0.2778702" side_tool="true" visible="true" weight="0.2489339" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.345987" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34815618" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34815618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
