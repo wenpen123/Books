@@ -7,58 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/model/PageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/test/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/FindUserByIdServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/LogOutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/ModifyUserInfoServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/MyAccountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/servlet/ShowProductByPageServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/annotations-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/catalina-ant.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/catalina-ha.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/catalina-storeconfig.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/catalina-tribes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/catalina.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/ecj-4.6.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/el-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/jasper-el.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/jasper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/jaspic-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-coyote.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-i18n-es.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-i18n-fr.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-i18n-ja.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-i18n-ru.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-jdbc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-jni.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-util-scan.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-util.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/tomcat-websocket.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/lib/websocket-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/model/PageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/test/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/FindUserByIdServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/LogOutServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ModifyUserInfoServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/MyAccountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/servlet/ShowProductByPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java">
+        <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
+              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -106,10 +60,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,55 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
+        <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="e#2715#2719#0#HTML" expanded="true" />
-                <element signature="e#2719#2723#0#HTML" expanded="true" />
-                <element signature="e#2901#2905#0#HTML" expanded="true" />
-                <element signature="e#2905#2909#0#HTML" expanded="true" />
-                <element signature="e#3830#3834#0#HTML" expanded="true" />
-                <element signature="e#3834#3838#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+            <state relative-caret-position="84">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -223,13 +181,15 @@
         <option value="$PROJECT_DIR$/web/myAccount.jsp" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/test/test.java" />
-        <option value="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/showProductByPageServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java" />
         <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java" />
         <option value="$PROJECT_DIR$/web/product_list.jsp" />
+        <option value="$PROJECT_DIR$/web/product_info.jsp" />
       </list>
     </option>
   </component>
@@ -247,10 +207,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="417" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1094" />
-    <option name="height" value="1047" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -276,6 +236,65 @@
               <item name="Books" type="b2602c69:ProjectViewProjectNode" />
               <item name="Books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wenpeng" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -493,7 +512,7 @@
       <workItem from="1564284444905" duration="174000" />
       <workItem from="1564284636702" duration="18000" />
       <workItem from="1564284670039" duration="111000" />
-      <workItem from="1564284798065" duration="3973000" />
+      <workItem from="1564284798065" duration="7371000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -656,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564240527516</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1.0">
+      <created>1564288824783</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564288824783</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91203000" />
+    <option name="totallyTimeSpent" value="94601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,14 +701,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72408026" visible="true" weight="0.1108742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72212976" visible="true" weight="0.2489339" />
       <window_info id="Structure" order="1" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
-      <window_info id="Web" order="7" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
+      <window_info id="Web" order="7" sideWeight="0.2778702" side_tool="true" visible="true" weight="0.2489339" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.345987" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34815618" />
@@ -723,14 +749,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/activesuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/service.java" />
     <entry file="jar://E:/apache-tomcat-8.5.39/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -992,10 +1010,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/billboard.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/TS2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/TS3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/101.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/102.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/euro.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/java2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/ngcn.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/TS1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/TS5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookcover/subwayinshanghai.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="126">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#289#290#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
@@ -1029,17 +1115,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="336">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1048,54 +1127,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="294">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ShowProductByPageServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu_search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="63" column="86" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="84">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#2715#2719#0#HTML" expanded="true" />
-            <element signature="e#2719#2723#0#HTML" expanded="true" />
-            <element signature="e#2901#2905#0#HTML" expanded="true" />
-            <element signature="e#2905#2909#0#HTML" expanded="true" />
-            <element signature="e#3830#3834#0#HTML" expanded="true" />
-            <element signature="e#3834#3838#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -26,6 +26,13 @@ public class ProductService {
         pr.setList(list);
         return pr;
     }
+
+    public Product findBookById(String id) throws SQLException
+    {
+        ProductDao pd = new ProductDao();
+      return  pd.findBookById(id);
+    }
+
 }
 
 

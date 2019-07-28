@@ -38,7 +38,7 @@
 
 											<div class="divbookcover">
 												<p>
-													<img src="bookcover/101.jpg"
+													<img src="${Book.imgurl}"
 														width="213" height="269" border="0" />
 												</p>
 											</div>
@@ -50,15 +50,15 @@
 											</div></td>
 										<td style="padding:20px 5px 5px 5px"><img
 											src="images/miniicon3.gif" width="16" height="13" /><font
-											class="bookname">&nbsp;&nbsp;Thinking in java</font>
+											class="bookname">&nbsp;&nbsp;${Book.name}</font>
 
-											<hr />售价：<font color="#FF0000">￥100</font>
-											<hr /> 类别：计算机
+											<hr />售价：<font color="#FF0000">￥${Book.price}</font>
+											<hr /> 类别：${Book.category}
 
 											<hr />
 											<p>
 												<b>内容简介：</b>
-											</p> java 经典书籍</td>
+											</p> ${Book.description}</td>
 									</tr>
 								</table></td>
 						</tr>

@@ -42,13 +42,13 @@
 
                                             <div class="divbookpic">
                                                 <p>
-                                                    <a href="product_info.jsp"><img src="bookcover/101.jpg" width="115"
+                                                    <a href="${pageContext.request.contextPath}/productInfo?id=${product.id}"><img src="${pageContext.request.contextPath}/${product.imgurl}" width="115"
                                                                                     height="129" border="0"/> </a>
                                                 </p>
                                             </div>
 
                                             <div class="divlisttitle">
-                                                <a href="product_info.jsp">书名:${product.name}<br/>售价:${product.price}
+                                                <a href="${pageContext.request.contextPath}/productInfo?id=${product.id}">书名:${product.name}<br/>售价:${product.price}
                                                 </a>
                                             </div>
                                         </td>
@@ -83,7 +83,7 @@
                                     </c:forEach>
 
                                     <c:if test="${pageResult.currentPage==pageResult.totalPage}">
-                                        <li class="disablepage"> 下一页 &lt;&lt;</li>
+                                        <li class="disablepage"> 下一页 &gt;&gt;</li>
                                     </c:if>
 
                                     <c:if test="${pageResult.currentPage<pageResult.totalPage}">

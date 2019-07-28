@@ -3,6 +3,7 @@ package com.wenpeng.dao;
 import com.wenpeng.model.Product;
 import com.wenpeng.utils.C3P0Utils;
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -39,8 +40,9 @@ public class ProductDao {
 
     /**
      * 获取指定分类和页数
+     *
      * @param category 类型
-     * @param page  页数
+     * @param page     页数
      * @param pageSize 每页显示多少条
      * @return
      * @throws SQLException
@@ -64,6 +66,17 @@ public class ProductDao {
         return qr.query(sql, new BeanListHandler<Product>(Product.class), params.toArray());
     }
 
+    /**
+     * 通过商品ID查找商品
+     */
+
+    public Product findBookById(String id) throws SQLException
+    {
+        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "select * from products where 1=1 and id =?";
+        return qr.query(sql, new BeanHandler<Product>(Product.class), id);
+
+    }
 
  /*   public static void main(String[] args) throws SQLException
     {
