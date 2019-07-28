@@ -5,7 +5,7 @@ import java.util.List;
 public class PageResult<T>{
     List<T> list;
     long totalCount;//总条数
-    int pageSize = 5 ;//每页显示条数
+    int pageSize = 4;//每页显示条数
     int totalPage;//总页数
     int currentPage ;//当前页数
 

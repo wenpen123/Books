@@ -61,20 +61,37 @@
 
 
                             <div class="pagination">
+                                第${pageResult.currentPage}页/共${pageResult.totalPage}页
+
+
                                 <ul>
+                                    <c:if test="${pageResult.currentPage==1}">
+                                        <li class="disablepage"> 上一页 &lt;&lt;</li>
+                                    </c:if>
 
+                                    <c:if test="${pageResult.currentPage!=1}">
+                                        <li>
+                                            <a href="${pageContext.request.contextPath}/showProductByPage?category=${category}&page=${pageResult.currentPage-1}">上一页
+                                                &lt;&lt;</a></li>
+                                    </c:if>
 
-                                    <li class="disablepage">上一页 &lt;&lt;</li>
-<%--                     <li class="currentpage">1</li>--%>
-                                   <c:forEach begin="1" end="${pageResult.totalPage}" var="page">
-                                       <li><a href="${pageContext.request.contextPath}/showProductByPage?category=${category}&page=${page}">${page}</a> </li>
+                                    <c:forEach begin="1" end="${pageResult.totalPage}" var="page">
+                                        <li>
+                                            <a href="${pageContext.request.contextPath}/showProductByPage?category=${category}&page=${page}">${page}</a>
+                                        </li>
 
-                                   </c:forEach>
+                                    </c:forEach>
 
+                                    <c:if test="${pageResult.currentPage==pageResult.totalPage}">
+                                        <li class="disablepage"> 下一页 &lt;&lt;</li>
+                                    </c:if>
 
+                                    <c:if test="${pageResult.currentPage<pageResult.totalPage}">
+                                        <li class="nextpage"><a
+                                                href="${pageContext.request.contextPath}/showProductByPage?category=${category}&page=${pageResult.currentPage+1}">下一页&gt;&gt;</a>
+                                        </li>
+                                    </c:if>
 
-                                    <li class="nextpage"><a href="product_info.jsp">下一页&gt;&gt;</a>
-                                    </li>
 
                                 </ul>
                             </div>
