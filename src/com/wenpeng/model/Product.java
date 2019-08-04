@@ -1,12 +1,14 @@
 package com.wenpeng.model;
 
+import java.util.Objects;
+
 public class Product {
-    private  int id;
-    private  String name;//书名
-    private  double price;//价格
-    private  String category;//分类
+    private int id;
+    private String name;//书名
+    private double price;//价格
+    private String category;//分类
     private int pnum;//数量
-    private  String imgurl;//图片
+    private String imgurl;//图片
     private String description;//描述
 
     public int getId()
@@ -84,4 +86,19 @@ public class Product {
     {
         return "Product{" + "id=" + id + ", name='" + name + '\'' + ", price=" + price + ", category='" + category + '\'' + ", pnum=" + pnum + ", imgurl='" + imgurl + '\'' + ", description='" + description + '\'' + '}';
     }
+
+    @Override
+    public boolean equals(Object o)
+    {
+        if (this == o) return true;
+        if (o == null) return false;
+        if (getClass() != o.getClass()) return false;
+        Product other = (Product) o;
+        if (id != other.id)
+        {
+            return false;
+        }
+        return true;
+    }
+
 }

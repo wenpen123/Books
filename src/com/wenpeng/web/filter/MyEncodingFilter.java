@@ -2,7 +2,12 @@ package com.wenpeng.web.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Map;
+
 @WebFilter("/*")
 public class MyEncodingFilter implements Filter {
     @Override
@@ -22,51 +27,53 @@ public class MyEncodingFilter implements Filter {
     {
         response.setContentType("text/html;charset=utf-8");
         request.setCharacterEncoding("UTF-8");
-        //解决Tomcat 7 Get请求中文乱码问题
-        //MyRequest myRequest = new MyRequest((HttpServletRequest) request);
+/*
+//        解决Tomcat 7 Get请求中文乱码问题
+        MyRequest myRequest = new MyRequest((HttpServletRequest) request);
+        myRequest.setCharacterEncoding("UTF-8");*/
         chain.doFilter(request, response);
     }
 
 
 }
 
-//解决Tomcat 7 Get请求中文乱码问题
-/*
-class MyRequest extends HttpServletRequestWrapper {
+  /*//解决Tomcat 7 Get请求中文乱码问题
+    class MyRequest extends HttpServletRequestWrapper {
 
-    private HttpServletRequest request;
+        private HttpServletRequest request;
 
-    public MyRequest(HttpServletRequest request)
-    {
-        super(request);
-        this.request = request;
-    }
-
-    @Override
-    public String getParameter(String name)
-    {
-        return getParameterMap().get(name)[0];
-    }
-
-    @Override
-    public Map<String, String[]> getParameterMap()
-    {
-        Map<String, String[]> map = request.getParameterMap();
-        for (Map.Entry<String, String[]> entry : map.entrySet())
+        public MyRequest(HttpServletRequest request)
         {
-            String[] values = entry.getValue();
-            for (int i = 0; i < values.length; i++)
+            super(request);
+            this.request = request;
+        }
+
+        @Override
+        public String getParameter(String name)
+        {
+            return getParameterMap().get(name)[0];
+        }
+
+        @Override
+        public Map<String, String[]> getParameterMap()
+        {
+            Map<String, String[]> map = request.getParameterMap();
+            for (Map.Entry<String, String[]> entry : map.entrySet())
             {
-                try
+                String[] values = entry.getValue();
+                for (int i = 0; i < values.length; i++)
                 {
-                    values[i] = new String(values[i].getBytes("ISO-8859-1"), "UTF-8");
-                }
-                catch (UnsupportedEncodingException e)
-                {
-                    e.printStackTrace();
+                    try
+                    {
+                        values[i] = new String(values[i].getBytes("ISO-8859-1"), "UTF-8");
+                    }
+                    catch (UnsupportedEncodingException e)
+                    {
+                        e.printStackTrace();
+                    }
                 }
             }
+            return map;
         }
-        return map;
     }
-}*/
+*/

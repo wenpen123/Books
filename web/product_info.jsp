@@ -21,7 +21,7 @@
 
 				<td><div style="text-align:right; margin:5px 10px 5px 0px">
 						<a href="index.html">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;<a
-							href="product_list.html">&nbsp;计算机</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;Thinking In Java
+							href="product_list.html">&nbsp;${Book.category}</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;${Book.name}
 					</div>
 
 
@@ -44,7 +44,7 @@
 											</div>
 
 											<div style="text-align:center; margin-top:25px">
-												<a href="cart.jsp">
+												<a href="${pageContext.request.contextPath}/addCart?id=${Book.id}">
 													<img src="images/buybutton.gif" border="0" /> 
 												</a>
 											</div></td>
@@ -65,7 +65,7 @@
 					</table>
 				</td>
 			</tr>
-		</table>
+		</table>cc
 	</div>
 
 

@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -44,28 +44,34 @@
 													<td width="10%">小计</td>
 													<td width="10%">取消</td>
 												</tr>
+
+
+
 											</table> 
 												<table width="100%" border="0" cellspacing="0">
+
+													<c:forEach items="${cart}" var="entry">
 													<tr>
 														<td width="10%">1</td>
-														<td width="30%">Thinking in Java</td>
+														<td width="30%">${entry.key.name}</td>
 
-														<td width="10%">100</td>
+														<td width="10%">${entry.key.price}</td>
 														<td width="20%">
 														<input type="button" value='-'
 															style="width:20px">
 
-															<input name="text" type="text"  value=10
+															<input name="text" type="text"  value="${entry.value}"
 															style="width:40px;text-align:center" /> <input
 															type="button" value='+' style="width:20px">
 
 														</td>
-														<td width="10%">10</td>
+														<td width="10%">${entry.key.pnum}</td>
 														<td width="10%">1000</td>
 
 														<td width="10%"><a href="#"
 															style="color:#FF0000; font-weight:bold">X</a></td>
 													</tr>
+													</c:forEach>
 												</table>
 												
 
