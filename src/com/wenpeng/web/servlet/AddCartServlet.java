@@ -32,9 +32,7 @@ public class AddCartServlet extends HttpServlet {
         try
         {
             Product p = ps.findBookById(id);
-
             Map<Product, Integer> cart = (Map<Product, Integer>) request.getSession().getAttribute("cart");
-
             if (cart == null)
             {
                 cart = new HashMap<Product, Integer>();
@@ -57,12 +55,10 @@ public class AddCartServlet extends HttpServlet {
                 System.out.println(entry.getKey() + "数量:" + entry.getValue());
             }
             //响应给客户端的页面
-            String a1="<a href=\"" +request.getContextPath()+ "/showProductByPage\"> 继续购物</a>";
-
-            String a2="&nbsp&nbsp<a href=\"" +request.getContextPath()+ "/cart.jsp\"> 查看购物车</a>";
+            String a1 = "<a href=\"" + request.getContextPath() + "/showProductByPage\"> 继续购物</a>";
+            String a2 = "&nbsp&nbsp<a href=\"" + request.getContextPath() + "/cart.jsp\"> 查看购物车</a>";
             response.getWriter().write(a1);
             response.getWriter().write(a2);
-
         }
         catch (SQLException e)
         {

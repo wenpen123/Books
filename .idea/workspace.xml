@@ -7,21 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/filter/MyEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/WEB-INF/classes/com/wenpeng/web/filter/MyEncodingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookStor/com/wenpeng/web/filter/MyEncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BookStor_war_exploded/cart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="315">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
@@ -88,6 +77,8 @@
                 <element signature="e#1132#1133#0" expanded="true" />
                 <element signature="e#1174#1175#0" expanded="true" />
                 <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="53" column="58" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="58" />
+            <state relative-caret-position="378">
+              <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -227,10 +218,10 @@
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/ProductInfoServlet.java" />
         <option value="$PROJECT_DIR$/web/product_list.jsp" />
         <option value="$PROJECT_DIR$/web/product_info.jsp" />
-        <option value="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" />
         <option value="$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" />
         <option value="$PROJECT_DIR$/web/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" />
       </list>
     </option>
   </component>
@@ -492,7 +483,7 @@
       <workItem from="1564284798065" duration="7683000" />
       <workItem from="1564323496088" duration="436000" />
       <workItem from="1564840257953" duration="7205000" />
-      <workItem from="1564918123730" duration="4258000" />
+      <workItem from="1564918123730" duration="5913000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -676,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564323508249</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1.0">
+      <created>1564925231788</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564925231789</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106812000" />
+    <option name="totallyTimeSpent" value="108467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,6 +691,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7173913" visible="true" weight="0.2595949" />
       <window_info id="Structure" order="1" sideWeight="0.27591974" side_tool="true" weight="0.11140725" />
@@ -1080,30 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/filter/MyEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1118,16 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="53" column="58" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,6 +1111,42 @@
             <element signature="n#style#0;n#input#0;n#td#3;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#td#3;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#td#3;n#tr#0;n#table#1;n#td#0;n#tr#1;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wenpeng/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
           </folding>
         </state>
       </provider>
