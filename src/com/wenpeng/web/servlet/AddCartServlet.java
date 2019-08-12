@@ -50,10 +50,10 @@ public class AddCartServlet extends HttpServlet {
                 }
             }
             request.getSession().setAttribute("cart", cart);
-            for (Map.Entry<Product, Integer> entry : cart.entrySet())
-            {
-                System.out.println(entry.getKey() + "数量:" + entry.getValue());
-            }
+            //            for (Map.Entry<Product, Integer> entry : cart.entrySet())
+            //            {
+            //                System.out.println(entry.getKey() + "数量:" + entry.getValue());
+            //            }
             //响应给客户端的页面
             String a1 = "<a href=\"" + request.getContextPath() + "/showProductByPage\"> 继续购物</a>";
             String a2 = "&nbsp&nbsp<a href=\"" + request.getContextPath() + "/cart.jsp\"> 查看购物车</a>";
