@@ -5,7 +5,27 @@
 <head>
     <title>电子书城</title>
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <script type="text/javascript">
+        //id:商品id
+        //num更改后的购物数据
+        //pnum库存
+        function changeNum(id, num, pnum) {
+            // alert(id + "-" + num + "-" + pnum);
+            if (num > pnum) {
+                alert("购买的数量不能大于库存数量");
+                return;
+            }
+            if (num == 0) {
+                var b = confirm("您是否要从购物车删除该商品");
+                if (b == false) {
+                    return;
+                }
+            }
+           location.href='${pageContext.request.contextPath}/changeNum?id='+id+'&num='+num+'';
 
+        }
+
+    </script>
 
 </head>
 
@@ -57,12 +77,12 @@
 
                                                     <td width="10%">${entry.key.price}</td>
                                                     <td width="20%">
-                                                        <input type="button" value='-'
-                                                               style="width:20px">
-
+                                                        <input type="button" value='-' style="width:20px"
+                                                               onclick="changeNum(${entry.key.id},${entry.value-1},${entry.key.pnum})">
                                                         <input name="text" type="text" value="${entry.value}"
-                                                               style="width:40px;text-align:center"/> <input
-                                                            type="button" value='+' style="width:20px">
+                                                               style="width:40px;text-align:center"/>
+                                                        <input type="button" value='+' style="width:20px"
+                                                               onclick="changeNum(${entry.key.id},${entry.value+1},${entry.key.pnum})">
 
                                                     </td>
                                                     <td width="10%">${entry.key.pnum}</td>
@@ -72,7 +92,8 @@
                                                                        style="color:#FF0000; font-weight:bold">X</a>
                                                     </td>
                                                 </tr>
-                                                <c:set var="totalPrice" value="${totalPrice+entry.key.price*entry.value}"></c:set>
+                                                <c:set var="totalPrice"
+                                                       value="${totalPrice+entry.key.price*entry.value}"></c:set>
                                             </c:forEach>
                                         </table>
 
