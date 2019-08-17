@@ -19,32 +19,43 @@ import java.util.Map;
  */
 @WebServlet("/addCart")
 public class AddCartServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
         request.setCharacterEncoding("UTF-8");
         String id = request.getParameter("id");
         ProductService ps = new ProductService();
-        try {
+        Map<Product, Integer> cart = (Map<Product, Integer>) request.getSession().getAttribute("cart");
+        try
+        {
             Product p = ps.findBookById(id);
             int pnum = p.getPnum();
-            Map<Product, Integer> cart = (Map<Product, Integer>) request.getSession().getAttribute("cart");
-            if (cart == null) {
+            if (cart == null)
+            {
                 cart = new HashMap<Product, Integer>();
                 cart.put(p, 1);
-            } else {
-                for (Map.Entry<Product, Integer> entry : cart.entrySet()) {
-                    if (entry.getKey().getId() == p.getId() && entry.getValue() >= pnum) {
+            }
+            if (cart != null)
+            {
+                for (Map.Entry<Product, Integer> entry : cart.entrySet())
+                {
+                    if (entry.getKey().getId() == p.getId() && entry.getValue() >= pnum)
+                    {
                         System.out.println(entry.getValue());
                         response.getWriter().write("库存数量不足");
                         return;
                     }
                 }
-                if (cart.containsKey(p)) {
+                if (cart.containsKey(p))
+                {
                     cart.put(p, cart.get(p) + 1);
-                } else {
+                }
+                else
+                {
                     cart.put(p, 1);
                 }
 
@@ -58,7 +69,9 @@ public class AddCartServlet extends HttpServlet {
             String a2 = "&nbsp&nbsp<a href=\"" + request.getContextPath() + "/cart.jsp\"> 查看购物车</a>";
             response.getWriter().write(a1);
             response.getWriter().write(a2);
-        } catch (SQLException e) {
+        }
+        catch (SQLException e)
+        {
             e.printStackTrace();
         }
 

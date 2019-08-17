@@ -70,9 +70,9 @@
                                         </table>
                                         <table width="100%" border="0" cellspacing="0">
                                             <c:set var="totalPrice" value="0"> </c:set>
-                                            <c:forEach items="${cart}" var="entry">
+                                            <c:forEach items="${cart}" var="entry" varStatus="vs">
                                                 <tr>
-                                                    <td width="10%">1</td>
+                                                    <td width="10%">${vs.count}</td>
                                                     <td width="30%">${entry.key.name}</td>
 
                                                     <td width="10%">${entry.key.price}</td>
@@ -111,7 +111,7 @@
                                                     src="images/gwc_jx.gif" border="0"/> </a>
 
                                             &nbsp;&nbsp;&nbsp;&nbsp;<a
-                                                href="order.jsp"><img
+                                                href="${pageContext.request.contextPath}/settleAccount"><img
                                                 src="images/gwc_buy.gif" border="0"/> </a>
                                         </div>
                                     </td>
