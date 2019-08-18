@@ -1,6 +1,5 @@
 package com.wenpeng.web.servlet;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
 import com.wenpeng.model.Order;
 import com.wenpeng.model.OrderItem;
 import com.wenpeng.model.Product;
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 
 @WebServlet("/createOrder")
@@ -69,6 +67,10 @@ public class CreateOrderServlet extends HttpServlet {
             }
             OrderService os = new OrderService();
             os.createOrder(order);
+            //订单成功.移除购物车数据
+            request.getSession().removeAttribute("cart");
+            //减少库存
+
         }
         catch (Exception e)
         {

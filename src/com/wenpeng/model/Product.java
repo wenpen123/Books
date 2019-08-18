@@ -1,8 +1,8 @@
 package com.wenpeng.model;
 
-import java.util.Objects;
+import java.io.Serializable;
 
-public class Product {
+public class Product  {
     private int id;
     private String name;//书名
     private double price;//价格

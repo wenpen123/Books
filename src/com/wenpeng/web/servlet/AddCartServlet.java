@@ -29,51 +29,66 @@ public class AddCartServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         String id = request.getParameter("id");
         ProductService ps = new ProductService();
-        Map<Product, Integer> cart = (Map<Product, Integer>) request.getSession().getAttribute("cart");
+        Product p = null;
+        String a1 = "<a href=\"" + request.getContextPath() + "/showProductByPage\"> 继续购物</a>";
+        String a2 = "&nbsp&nbsp<a href=\"" + request.getContextPath() + "/cart.jsp\"> 查看购物车</a>";
         try
         {
-            Product p = ps.findBookById(id);
-            int pnum = p.getPnum();
-            if (cart == null)
-            {
-                cart = new HashMap<Product, Integer>();
-                cart.put(p, 1);
-            }
-            if (cart != null)
-            {
-                for (Map.Entry<Product, Integer> entry : cart.entrySet())
-                {
-                    if (entry.getKey().getId() == p.getId() && entry.getValue() >= pnum)
-                    {
-                        System.out.println(entry.getValue());
-                        response.getWriter().write("库存数量不足");
-                        return;
-                    }
-                }
-                if (cart.containsKey(p))
-                {
-                    cart.put(p, cart.get(p) + 1);
-                }
-                else
-                {
-                    cart.put(p, 1);
-                }
-
-            }
-            request.getSession().setAttribute("cart", cart);
-           /* for (Map.Entry<Product, Integer> entry : cart.entrySet()) {
-                System.out.println(entry.getKey() + "数量:" + entry.getValue());
-            }*/
-            // 响应给客户端的页面
-            String a1 = "<a href=\"" + request.getContextPath() + "/showProductByPage\"> 继续购物</a>";
-            String a2 = "&nbsp&nbsp<a href=\"" + request.getContextPath() + "/cart.jsp\"> 查看购物车</a>";
-            response.getWriter().write(a1);
-            response.getWriter().write(a2);
+            p = ps.findBookById(id);
         }
         catch (SQLException e)
         {
             e.printStackTrace();
         }
+        int pnum = p.getPnum();
+
+        Map<Product, Integer> cart = (Map<Product, Integer>) request.getSession().getAttribute("cart");
+
+        if (cart == null)
+        {
+            cart = new HashMap<Product, Integer>();
+            if (pnum > 0)
+            {
+                cart.put(p, 1);
+                request.getSession().setAttribute("cart", cart);
+                response.getWriter().write(a1);
+                response.getWriter().write(a2);
+                return;
+            }
+            else
+            {
+                response.getWriter().write("库存数量不足");
+                return;
+            }
+
+        }
+        if (cart != null)
+        {
+            for (Map.Entry<Product, Integer> entry : cart.entrySet())
+            {
+                if (entry.getKey().getId() == p.getId() && entry.getValue() >= pnum )
+                {
+                    System.out.println(entry.getValue());
+                    response.getWriter().write("库存数量不足");
+                    return;
+                }
+            }
+        }
+        if (cart.containsKey(p))
+        {
+            cart.put(p, cart.get(p) + 1);
+        }
+        else
+        {
+            cart.put(p, 1);
+        }
+        request.getSession().setAttribute("cart", cart);
+        response.getWriter().write(a1);
+        response.getWriter().write(a2);
+    /* for (Map.Entry<Product, Integer> entry : cart.entrySet()) {
+         System.out.println(entry.getKey() + "数量:" + entry.getValue());
+     }*/
+        // 响应给客户端的页面
 
 
     }

@@ -6,15 +6,16 @@ import java.util.List;
 public class Order {
     private String id;
     private double money;
-    private String receiverAddress;
-    private String receiverName;
-    private String receiverPhone;
-    private String paystate;
-    private Date ordertime;
-    private int user_id;
-    private User user;
+    private String receiverAddress;//收件地址
+    private String receiverName;//收件人
+    private String receiverPhone;//收件人电话
+    private String paystate; //支付状态
+    private Date ordertime;//订单时间
+    private int user_id;//用户id
+    //如果表是一个外键关系.一般设置为一个对象
+    private User user;//用户
 
-    private List<OrderItem> items;
+    private List<OrderItem> items;//订单
 
     public List<OrderItem> getItems()
     {

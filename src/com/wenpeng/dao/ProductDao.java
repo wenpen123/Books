@@ -78,6 +78,13 @@ public class ProductDao {
 
     }
 
+    public void updatePnum(int id, int num) throws SQLException
+    {
+        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+        String sql = "update products set pnum = pnum - ?  where  id =?";
+        qr.update(sql, num, id);
+
+    }
  /*   public static void main(String[] args) throws SQLException
     {
         ProductDao pd = new ProductDao();
