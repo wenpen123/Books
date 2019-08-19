@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/AddCartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/CreateOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wenpeng/web/servlet/CreateOrderServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="432dfc59-97b6-4f49-8c93-46d6a91cbc03" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +96,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -151,17 +144,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -400,7 +383,7 @@
       <workItem from="1565782791580" duration="6424000" />
       <workItem from="1565874712754" duration="926000" />
       <workItem from="1565960843084" duration="11377000" />
-      <workItem from="1566091926991" duration="13506000" />
+      <workItem from="1566091926991" duration="14161000" />
     </task>
     <task id="LOCAL-00001">
       <created>1559564474584</created>
@@ -612,11 +595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565619053472</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1.0">
+      <created>1566135705426</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566135705426</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25901000" />
+    <option name="totallyTimeSpent" value="26556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +630,7 @@
       <window_info id="Web" order="7" sideWeight="0.30677965" side_tool="true" visible="true" weight="0.20788912" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.345987" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7862473" visible="true" weight="0.36008677" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.608742" weight="0.36008677" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573562" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,7 +638,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3275488" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5042644" side_tool="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.391258" side_tool="true" visible="true" weight="0.36008677" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2516269" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3298611" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
