@@ -5,6 +5,7 @@ import com.wenpeng.dao.OrderItemDao;
 import com.wenpeng.dao.ProductDao;
 import com.wenpeng.model.Order;
 import com.wenpeng.model.OrderItem;
+import com.wenpeng.utils.ManagerThreadLocal;
 
 import java.sql.SQLException;
 
@@ -14,17 +15,28 @@ public class OrderService {
     private OrderItemDao orderItemDao = new OrderItemDao();
     private ProductDao pd = new ProductDao();
 
-    public void createOrder(Order order) {
+    public void createOrder(Order order)
+    {
 
-        try {
+        try
+        {
+            //开启事物
+            ManagerThreadLocal.beginTransaction();
             orderDao.add(order);
             orderItemDao.addOrderItems(order.getItems());
             //减库存
-            for (OrderItem item : order.getItems()) {
+            for (OrderItem item : order.getItems())
+            {
                 pd.updatePnum(item.getProduct().getId(), item.getBuynum());
             }
-        } catch (SQLException e) {
+            //提交事务
+            ManagerThreadLocal.commitTransaction();
+        }
+        catch (SQLException e)
+        {
             e.printStackTrace();
+            //事务回滚
+            ManagerThreadLocal.rollbackTransaction();
         }
 
     }

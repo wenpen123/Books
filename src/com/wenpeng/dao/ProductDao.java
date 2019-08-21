@@ -2,6 +2,7 @@ package com.wenpeng.dao;
 
 import com.wenpeng.model.Product;
 import com.wenpeng.utils.C3P0Utils;
+import com.wenpeng.utils.ManagerThreadLocal;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
@@ -80,9 +81,10 @@ public class ProductDao {
 
     public void updatePnum(int id, int num) throws SQLException
     {
-        QueryRunner qr = new QueryRunner(C3P0Utils.getDataSource());
+
         String sql = "update products set pnum = pnum - ?  where  id =?";
-        qr.update(sql, num, id);
+        QueryRunner qr = new QueryRunner();
+        qr.update(ManagerThreadLocal.getConnection(),sql, num, id);
 
     }
  /*   public static void main(String[] args) throws SQLException
