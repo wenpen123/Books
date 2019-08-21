@@ -14,23 +14,16 @@ public class OrderService {
     private OrderItemDao orderItemDao = new OrderItemDao();
     private ProductDao pd = new ProductDao();
 
-    public void createOrder(Order order)
-    {
+    public void createOrder(Order order) {
 
-        try
-        {
+        try {
             orderDao.add(order);
             orderItemDao.addOrderItems(order.getItems());
             //减库存
-            for (OrderItem item : order.getItems())
-            {
+            for (OrderItem item : order.getItems()) {
                 pd.updatePnum(item.getProduct().getId(), item.getBuynum());
             }
-
-
-        }
-        catch (SQLException e)
-        {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
 
